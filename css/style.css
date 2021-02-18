@@ -251,7 +251,7 @@ img {
 /* ================================= 
   Media Queries
 ==================================== */
-@media (min-width: 769px) {
+@media (min-width: 768px) {
 
 	
 	.wrap {
@@ -267,7 +267,7 @@ img {
 	
 	.main-nav {
 		text-align: center;
-		
+		float: right;
 	}
 	
 
@@ -279,9 +279,14 @@ img {
 		background-color: rgba(250, 249, 249, 0.981);
 	}
 	
+	.name,
 	.main-nav li {
-		margin-left: 20px;
-		margin-right: 20px;
+		float: left;
+	}
+
+	.main-nav li {
+		margin-left: 12px;
+		padding-top: 25px;
 	}
 
 	.banner {
@@ -370,7 +375,7 @@ img {
 	
 	}
 	
-	@media (min-width: 1025px) {
+	@media (min-width: 1024px) {
 		.main-header,
 		.name a,
 		.main-nav a {
