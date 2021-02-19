@@ -267,7 +267,7 @@ img {
 	
 	.main-nav {
 		text-align: center;
-		float: right;
+		
 	}
 	
 
@@ -279,14 +279,9 @@ img {
 		background-color: rgba(250, 249, 249, 0.981);
 	}
 	
-	.name,
+	
 	.main-nav li {
-		float: left;
-	}
-
-	.main-nav li {
-		margin-left: 12px;
-		padding-top: 25px;
+		display: inline-block;
 	}
 
 	.banner {
